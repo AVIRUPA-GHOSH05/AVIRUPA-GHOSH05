@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <rect width="800" height="400" fill="url(#bgGrad)" />
+
+  <g stroke="#ffffff" stroke-width="0.5" opacity="0.05">
+    <path d="M 0,50 L 800,50 M 0,100 L 800,100 M 0,150 L 800,150 M 0,200 L 800,200 M 0,250 L 800,250 M 0,300 L 800,300 M 0,350 L 800,350" />
+    <path d="M 100,0 L 100,400 M 200,0 L 200,400 M 300,0 L 300,400 M 400,0 L 400,400 M 500,0 L 500,400 M 600,0 L 600,400 M 700,0 L 700,400" />
+  </g>
+
+  <g opacity="0.25">
+    <circle cx="150" cy="120" r="4" fill="#38bdf8" />
+    <circle cx="250" cy="150" r="6" fill="#818cf8" filter="url(#glow)" />
+    <circle cx="180" cy="280" r="5" fill="#c084fc" />
+    <circle cx="100" cy="220" r="3" fill="#38bdf8" />
+    
+    <line x1="150" y1="120" x2="250" y2="150" stroke="#818cf8" stroke-width="1" />
+    <line x1="100" y1="220" x2="180" y2="280" stroke="#c084fc" stroke-width="1" />
+    <line x1="250" y1="150" x2="180" y2="280" stroke="#38bdf8" stroke-width="1" stroke-dasharray="4,4" />
+    
+    <text x="60" y="160" font-family="monospace" font-size="90" fill="#38bdf8" font-weight="bold" opacity="0.3">&lt;</text>
+    <text x="220" y="320" font-family="monospace" font-size="90" fill="#c084fc" font-weight="bold" opacity="0.3">&gt;</text>
+  </g>
+
+  <g opacity="0.2">
+    <circle cx="680" cy="200" r="100" fill="none" stroke="#818cf8" stroke-width="1" stroke-dasharray="5,10" />
+    <circle cx="680" cy="200" r="70" fill="none" stroke="#38bdf8" stroke-width="1.5" />
+    <circle cx="680" cy="200" r="40" fill="none" stroke="#c084fc" stroke-width="2" stroke-dasharray="40,20" />
+    <circle cx="680" cy="200" r="8" fill="#38bdf8" filter="url(#glow)" />
+    
+    <path d="M 500,250 Q 550,150 600,230 T 700,180 T 800,220" fill="none" stroke="#38bdf8" stroke-width="2" />
+  </g>
+
+  <g text-anchor="middle">
+    <text x="400" y="195" font-family="system-ui, -apple-system, sans-serif" font-size="52" font-weight="800" fill="url(#textGrad)" letter-spacing="2">
+      AVIRUPA GHOSH
+    </text>
+
+    <text x="400" y="245" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="500" fill="#94a3b8" letter-spacing="4">
+      FULL STACK DEVELOPER
+    </text>
+    <text x="400" y="300" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="500" fill="#818489" letter-spacing="4">
+      Aspiring DataScientist and AI Developer
+    </text>
+
+    <path d="M 400,267 L 404,271 L 400,275 L 396,271 Z" fill="#818cf8" opacity="0.7" />
+  </g>
+
+  <rect x="20" y="20" width="760" height="360" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.05" rx="8" />
+  <line x1="40" y1="20" x2="120" y2="20" stroke="#38bdf8" stroke-width="2" />
+  <line x1="20" y1="40" x2="20" y2="120" stroke="#38bdf8" stroke-width="2" />
+  <line x1="680" y1="380" x2="760" y2="380" stroke="#c084fc" stroke-width="2" />
+  <line x1="780" y1="280" x2="780" y2="360" stroke="#c084fc" stroke-width="2" />
+</svg>
