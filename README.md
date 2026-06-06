@@ -1,4 +1,4 @@
-# Avirupa143a
+# Avirupa Ghosh
 <div align="center">
   <img src="banner.svg" alt="Typing SVG" />
 </div>
