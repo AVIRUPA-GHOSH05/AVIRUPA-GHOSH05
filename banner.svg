@@ -1,0 +1,271 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" width="1000" height="400" role="img" aria-label="Avirupa Ghosh - Full Stack Developer, Data Scientist and AI Developer" xmlns:c2pa="http://c2pa.org/manifest">
+  <defs>
+    <!-- Backgrounds -->
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#12060f"/>
+      <stop offset="0.55" stop-color="#2a0e22"/>
+      <stop offset="1" stop-color="#4a1530"/>
+    </linearGradient>
+    <linearGradient id="floorGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a1226"/>
+      <stop offset="1" stop-color="#0d040a"/>
+    </linearGradient>
+    <radialGradient id="glowViolet" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#f97316" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#f97316" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#fbbf24" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#fbbf24" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPink" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#f43f5e" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#f43f5e" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Title -->
+    <linearGradient id="textGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fde68a"/>
+      <stop offset="0.5" stop-color="#fdba74"/>
+      <stop offset="1" stop-color="#fda4af"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#fff" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="dividerGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fbbf24" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#fb923c"/>
+      <stop offset="1" stop-color="#fb7185" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="horizonLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fbbf24" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#fed7aa"/>
+      <stop offset="1" stop-color="#fb7185" stop-opacity="0"/>
+    </linearGradient>
+
+    <text id="title" x="500" y="168" text-anchor="middle"
+          font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
+          font-size="62" font-weight="900" letter-spacing="3"
+          textLength="560" lengthAdjust="spacingAndGlyphs">AVIRUPA GHOSH</text>
+    <clipPath id="titleClip"><use href="#title"/></clipPath>
+
+    <!-- Sphere -->
+    <radialGradient id="sphereGrad" cx="0.35" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#fff7d6"/>
+      <stop offset="0.25" stop-color="#fdba74"/>
+      <stop offset="0.55" stop-color="#f97316"/>
+      <stop offset="0.85" stop-color="#7c2d12"/>
+      <stop offset="1" stop-color="#1c0703"/>
+    </radialGradient>
+    <linearGradient id="ringGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fde047"/>
+      <stop offset="0.5" stop-color="#fb923c"/>
+      <stop offset="1" stop-color="#fb7185"/>
+    </linearGradient>
+
+    <!-- Isometric glass cube (centered on the meeting vertex of the 3 faces) -->
+    <g id="cube">
+      <polygon points="0,-40 34.64,-20 0,0 -34.64,-20" fill="currentColor"/>
+      <polygon points="-34.64,-20 0,0 0,40 -34.64,20" fill="currentColor"/>
+      <polygon points="0,0 34.64,-20 34.64,20 0,40" fill="currentColor"/>
+      <polygon points="0,-40 34.64,-20 0,0 -34.64,-20" fill="#fff" opacity="0.5"/>
+      <polygon points="-34.64,-20 0,0 0,40 -34.64,20" fill="#fff" opacity="0.08"/>
+      <polygon points="0,0 34.64,-20 34.64,20 0,40" fill="#000" opacity="0.38"/>
+      <polygon points="0,-40 34.64,-20 34.64,20 0,40 -34.64,20 -34.64,-20" fill="none" stroke="#fff" stroke-opacity="0.6" stroke-width="1.2" stroke-linejoin="round"/>
+      <path d="M-34.64,-20 L0,0 L34.64,-20 M0,0 L0,40" fill="none" stroke="#fff" stroke-opacity="0.35" stroke-width="1"/>
+    </g>
+
+    <!-- Filters -->
+    <filter id="blurTitle" x="-20%" y="-100%" width="140%" height="300%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <filter id="blurShadow" x="-50%" y="-200%" width="200%" height="500%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- Floor grid fade -->
+    <radialGradient id="gridFade" gradientUnits="userSpaceOnUse" cx="500" cy="350" r="520">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+    <mask id="gridMask"><rect x="0" y="300" width="1000" height="100" fill="url(#gridFade)"/></mask>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="1000" height="400" fill="url(#sky)"/>
+  <ellipse cx="500" cy="170" rx="420" ry="150" fill="url(#glowViolet)"/>
+  <ellipse cx="120" cy="150" rx="220" ry="170" fill="url(#glowCyan)"/>
+  <ellipse cx="880" cy="170" rx="230" ry="180" fill="url(#glowPink)"/>
+
+  <!-- Stars -->
+  <g fill="#fff">
+    <circle cx="60" cy="50" r="1.2" opacity="0.7"/>
+    <circle cx="140" cy="30" r="1" opacity="0.5"/>
+    <circle cx="230" cy="70" r="1.4" opacity="0.8"/>
+    <circle cx="330" cy="28" r="1" opacity="0.6"/>
+    <circle cx="410" cy="95" r="1.1" opacity="0.5"/>
+    <circle cx="470" cy="30" r="1.3" opacity="0.7"/>
+    <circle cx="560" cy="52" r="1" opacity="0.6"/>
+    <circle cx="640" cy="98" r="1.2" opacity="0.6"/>
+    <circle cx="700" cy="26" r="1.5" opacity="0.8"/>
+    <circle cx="790" cy="44" r="1" opacity="0.5"/>
+    <circle cx="930" cy="60" r="1.3" opacity="0.7"/>
+    <circle cx="960" cy="120" r="1" opacity="0.5"/>
+    <circle cx="40" cy="190" r="1.1" opacity="0.5"/>
+    <circle cx="250" cy="205" r="1" opacity="0.4"/>
+    <circle cx="760" cy="205" r="1" opacity="0.4"/>
+    <circle cx="980" cy="235" r="1.2" opacity="0.5"/>
+    <circle cx="30" cy="285" r="1" opacity="0.4"/>
+    <circle cx="900" cy="22" r="1" opacity="0.5"/>
+    <circle cx="230" cy="70" r="1.4" opacity="0.8"><animate attributeName="opacity" values="0.8;0.15;0.8" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="700" cy="26" r="1.5" opacity="0.8"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="930" cy="60" r="1.3" opacity="0.7"><animate attributeName="opacity" values="0.7;0.1;0.7" dur="3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="470" cy="30" r="1.3" opacity="0.7"><animate attributeName="opacity" values="0.7;0.15;0.7" dur="5s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- Data / AI constellations -->
+  <g stroke="#fde68a" stroke-opacity="0.28" stroke-width="0.9" fill="none">
+    <polyline points="300,58 352,84 415,50 470,76"/>
+    <polyline points="590,70 650,44 715,80 775,52"/>
+  </g>
+  <g fill="#fde68a" opacity="0.75" filter="url(#softGlow)">
+    <circle cx="300" cy="58" r="2.5"/><circle cx="352" cy="84" r="2.5"/><circle cx="415" cy="50" r="2.5"/><circle cx="470" cy="76" r="2.5"/>
+    <circle cx="590" cy="70" r="2.5"/><circle cx="650" cy="44" r="2.5"/><circle cx="715" cy="80" r="2.5"/><circle cx="775" cy="52" r="2.5"/>
+  </g>
+  <text x="26" y="120" font-family="'Courier New',monospace" font-size="30" font-weight="bold" fill="#fbbf24" opacity="0.35">&lt;/&gt;</text>
+
+  <!-- Floor -->
+  <rect y="300" width="1000" height="100" fill="url(#floorGrad)"/>
+  <g mask="url(#gridMask)" stroke="#fb923c" stroke-width="1" stroke-opacity="0.55">
+    <line x1="0" y1="303" x2="1000" y2="303"/>
+    <line x1="0" y1="308" x2="1000" y2="308"/>
+    <line x1="0" y1="315" x2="1000" y2="315"/>
+    <line x1="0" y1="325" x2="1000" y2="325"/>
+    <line x1="0" y1="340" x2="1000" y2="340"/>
+    <line x1="0" y1="360" x2="1000" y2="360"/>
+    <line x1="0" y1="388" x2="1000" y2="388"/>
+    <path d="M500,300 L-490,400 M500,300 L-380,400 M500,300 L-270,400 M500,300 L-160,400 M500,300 L-50,400 M500,300 L60,400 M500,300 L170,400 M500,300 L280,400 M500,300 L390,400 M500,300 L500,400 M500,300 L610,400 M500,300 L720,400 M500,300 L830,400 M500,300 L940,400 M500,300 L1050,400 M500,300 L1160,400 M500,300 L1270,400 M500,300 L1380,400 M500,300 L1490,400"/>
+  </g>
+  <ellipse cx="500" cy="300" rx="430" ry="22" fill="url(#glowViolet)"/>
+  <rect x="0" y="299" width="1000" height="2" fill="url(#horizonLine)"/>
+
+  <!-- Soft floor shadows -->
+  <g fill="#000" opacity="0.4" filter="url(#blurShadow)">
+    <ellipse cx="118" cy="338" rx="46" ry="8"/>
+    <ellipse cx="58" cy="355" rx="28" ry="5"/>
+    <ellipse cx="170" cy="348" rx="22" ry="4"/>
+    <ellipse cx="868" cy="352" rx="64" ry="9"/>
+  </g>
+
+  <!-- Floating cubes -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -9;0 0" keyTimes="0;0.5;1" dur="6s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+    <use href="#cube" color="#fbbf24" transform="translate(118,168) scale(1.15)" filter="url(#glow)"/>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -7;0 0" keyTimes="0;0.5;1" dur="5s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+    <use href="#cube" color="#fb923c" transform="translate(58,240) scale(0.7)" filter="url(#glow)"/>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" keyTimes="0;0.5;1" dur="4.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+    <use href="#cube" color="#fb7185" transform="translate(186,118) scale(0.5)" filter="url(#glow)"/>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0" keyTimes="0;0.5;1" dur="5.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+    <use href="#cube" color="#fde047" transform="translate(166,262) scale(0.5)" filter="url(#glow)"/>
+  </g>
+
+  <!-- Globe with orbit rings -->
+  <g transform="translate(868,150)">
+    <animateTransform attributeName="transform" type="translate" values="868 150;868 142;868 150" keyTimes="0;0.5;1" dur="6s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+    <circle r="115" fill="url(#glowViolet)"/>
+
+    <!-- back halves of rings -->
+    <g transform="rotate(-20)">
+      <path d="M-92,0 A92,24 0 0 1 92,0" fill="none" stroke="url(#ringGrad)" stroke-width="3" opacity="0.55"/>
+    </g>
+    <g transform="rotate(28)">
+      <path d="M-76,0 A76,18 0 0 1 76,0" fill="none" stroke="#fbbf24" stroke-width="2" stroke-dasharray="2 6" stroke-linecap="round" opacity="0.5"/>
+    </g>
+
+    <!-- sphere -->
+    <circle r="50" fill="url(#sphereGrad)"/>
+    <g fill="none" stroke="#fff1e0" stroke-opacity="0.22" stroke-width="0.9">
+      <ellipse rx="15" ry="50"/>
+      <ellipse rx="33" ry="50"/>
+      <ellipse rx="48" ry="50"/>
+      <ellipse cy="-25" rx="43.3" ry="10"/>
+      <ellipse cy="0" rx="50" ry="12"/>
+      <ellipse cy="25" rx="43.3" ry="10"/>
+    </g>
+    <circle r="50" fill="none" stroke="#fde68a" stroke-opacity="0.35" stroke-width="1"/>
+    <ellipse cx="-17" cy="-20" rx="12" ry="7" fill="#fff" opacity="0.35" transform="rotate(-35 -17 -20)"/>
+
+    <!-- front halves of rings -->
+    <g transform="rotate(-20)">
+      <path d="M-92,0 A92,24 0 0 0 92,0" fill="none" stroke="url(#ringGrad)" stroke-width="3.5" filter="url(#softGlow)"/>
+    </g>
+    <g transform="rotate(28)">
+      <path d="M-76,0 A76,18 0 0 0 76,0" fill="none" stroke="#fbbf24" stroke-width="2.2" stroke-dasharray="2 6" stroke-linecap="round" filter="url(#softGlow)"/>
+    </g>
+  </g>
+
+  <!-- 3D extruded title -->
+  <use href="#title" x="10" y="16" fill="#f97316" opacity="0.7" filter="url(#blurTitle)"/>
+  <g stroke-width="1.6" stroke-linejoin="round">
+    <use href="#title" x="9.8" y="14"  fill="#1f0b05" stroke="#1f0b05"/>
+    <use href="#title" x="9.1" y="13"  fill="#1f0b05" stroke="#1f0b05"/>
+    <use href="#title" x="8.4" y="12"  fill="#2b1007" stroke="#2b1007"/>
+    <use href="#title" x="7.7" y="11"  fill="#2b1007" stroke="#2b1007"/>
+    <use href="#title" x="7"   y="10"  fill="#3d170a" stroke="#3d170a"/>
+    <use href="#title" x="6.3" y="9"   fill="#3d170a" stroke="#3d170a"/>
+    <use href="#title" x="5.6" y="8"   fill="#57200c" stroke="#57200c"/>
+    <use href="#title" x="4.9" y="7"   fill="#57200c" stroke="#57200c"/>
+    <use href="#title" x="4.2" y="6"   fill="#7a2d10" stroke="#7a2d10"/>
+    <use href="#title" x="3.5" y="5"   fill="#7a2d10" stroke="#7a2d10"/>
+    <use href="#title" x="2.8" y="4"   fill="#a03c14" stroke="#a03c14"/>
+    <use href="#title" x="2.1" y="3"   fill="#c2501a" stroke="#c2501a"/>
+    <use href="#title" x="1.4" y="2"   fill="#e0661f" stroke="#e0661f"/>
+    <use href="#title" x="0.7" y="1"   fill="#f97316" stroke="#f97316"/>
+  </g>
+  <use href="#title" fill="url(#textGrad)" stroke="#fff" stroke-opacity="0.6" stroke-width="0.8"/>
+
+  <!-- Glossy highlight + sweeping shine on the title face -->
+  <g clip-path="url(#titleClip)">
+    <rect x="200" y="118" width="600" height="22" fill="#fff" opacity="0.14"/>
+    <rect x="-200" y="110" width="110" height="80" fill="url(#shine)" transform="skewX(-20)">
+      <animate attributeName="x" values="-200;1100;1100" keyTimes="0;0.45;1" dur="7s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Divider -->
+  <rect x="380" y="198.5" width="240" height="1.5" fill="url(#dividerGrad)"/>
+  <path d="M500,193 L506,199.25 L500,205.5 L494,199.25 Z" fill="#fed7aa" filter="url(#softGlow)"/>
+
+  <!-- Subtitles -->
+  <g text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+    <text x="501" y="234" font-size="19" font-weight="700" letter-spacing="6" fill="#000" opacity="0.55">FULL STACK DEVELOPER</text>
+    <text x="500" y="232" font-size="19" font-weight="700" letter-spacing="6" fill="#ffedd5">FULL STACK DEVELOPER</text>
+    <text x="501" y="268" font-size="17" font-weight="500" letter-spacing="2" fill="#000" opacity="0.55">Data Scientist &amp; AI Developer</text>
+    <text x="500" y="266" font-size="17" font-weight="500" letter-spacing="2" fill="#fdba74">Data Scientist &amp; AI Developer</text>
+  </g>
+
+  <!-- Frame + corner accents -->
+  <rect x="16" y="16" width="968" height="368" fill="none" stroke="#fff" stroke-opacity="0.07" rx="8"/>
+  <g stroke-width="2" stroke-linecap="round">
+    <line x1="36" y1="16" x2="116" y2="16" stroke="#fbbf24"/>
+    <line x1="16" y1="36" x2="16" y2="116" stroke="#fbbf24"/>
+    <line x1="884" y1="384" x2="964" y2="384" stroke="#fb7185"/>
+    <line x1="984" y1="284" x2="984" y2="364" stroke="#fb7185"/>
+  </g>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYToxNzEwZDVhYy00YzIyLTQxM2EtOWQ0Yi1jMGY0ZmY4Y2IxMjMAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaD2XZuijkTjYBTd1HB6Le2cAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDoyYTkyNzU1MC0xM2VjLTQ2MDMtODIxYi0zMzUzZDU3MDZmZThscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNo+sanywx+IrQ8APONsw8ynAAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggd/QgBbVQN/rWWd+5JTiz0t/zlAYHucADIXl1p0kodaqkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaKteEoRgQu1f66uFEqnAnAIAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIH3pGoiMgaW90eKZBDERanKApXWUVFdqYuZryAAiyFq8ZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GTrMZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjE3MTBkNWFjLTRjMjItNDEzYS05ZDRiLWMwZjRmZjhjYjEyMy9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjg3N2RkNTk5LTA1NmUtNGRlOS1hYmFlLTA5ZWQyOGZjNmQ4YnJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCB39CAFtVA3+tZZ37klOLPS3/OUBge5wAMheXWnSSh1qqJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggaiGdjy7HFKzR1dJgQ32oGADday/GkTCGsgb/gX+z+2GiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggda2wvghW9P7u3QZl6a7vv63jyYP9+5ReVJulVdbAhIN0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQO8XicgYGHsNGpu6rlkjXtrU4j+s+DauxCX4qXedvuGQON6GQLyeevR3WH8FxNBsvOQgVW23hmKgjd5k4CTw2Qw=</c2pa:manifest></metadata></svg>
