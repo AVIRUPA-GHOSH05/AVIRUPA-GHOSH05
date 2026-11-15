@@ -1,80 +1,12 @@
-<div align="center">
-  <img src="banner.svg" alt="Typing SVG" />
-</div>
+<div align="center"> <img src="banner.svg" alt="Typing SVG" /> </div> <h1 align="center">Hey There! I'm Avirupa Ghosh 👋</h1> <p align="center"> <i>Data Scientist & Full-Stack Developer specializing in high-performance web systems and AI solutions.</i> </p>
+📂 Detailed Tech Stack Breakdown
+<table width="100%" border="0"> <tr> <td width="33%" valign="top"> <strong>💻 Languages</strong><br><br> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/> <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/> <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/> </td> <td width="33%" valign="top"> <strong>🌐 Frontend</strong><br><br> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/> </td> <td width="33%" valign="top"> <strong>⚙️ Backend &amp; Databases</strong><br><br> <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask"/> <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django"/> <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/> <img src="https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/> <br><br> <strong>🧰 Tools &amp; Platforms</strong><br><br> <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code"/> <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/> </td> </tr> </table> <!-- Optional: add a Data Science row once it matches your real skills, e.g. <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/> <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/> <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn"/> <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter"/> -->
+📈 GitHub Analytics
+<p align="center"> <img src="https://github-stats-extended.vercel.app/api?username=AVIRUPA-GHOSH05&show_icons=true&theme=transparent&title_color=39d353&icon_color=58a6ff&text_color=c9d1d9&border_color=21262d&count_private=true" alt="Avirupa's GitHub Stats" height="165" /> <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=AVIRUPA-GHOSH05&layout=compact&theme=transparent&title_color=39d353&text_color=c9d1d9&border_color=21262d" alt="Top Languages" height="165" /> </p> <p align="center"> <img src="https://streak-stats.demolab.com/?user=AVIRUPA-GHOSH05&theme=tokyonight" alt="GitHub Streak" width="98%" /> </p>
+📬 Connect With Me
+<!-- Replace the placeholders with your real links --> <p align="center"> <a href="https://www.linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a> <a href="mailto:YOUR-EMAIL"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a> </p>
+💻 CSE Dev Quote
 
-<h1 align="center">Hey There! I'm Avirupa Ghosh 👋</h1>
+“The art of programming is the art of organizing complexity, of mastering multitude and avoiding its bastard chaos as effectively as possible.”
 
-<p align="center">
-  <i>Aspiring Data Scientist & Full-Stack Developer specializing in high-performance web systems and AI solutions.</i>
-</p>
-
-## 📂 Detailed Tech Stack Breakdown
-
-<table width="100%" border="0">
-  <tr>
-    <td width="33%" valign="top">
-      <strong>💻 Languages</strong><br><br>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-      <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
-      <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C"/>
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
-    </td>
-    <td width="33%" valign="top">
-      <strong>🌐 Frontend</strong><br><br>
-      <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
-      <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
-    </td>
-    <td width="33%" valign="top">
-      <strong>⚙️ Backend &amp; Databases</strong><br><br>
-      <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask"/>
-      <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django"/>
-      <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
-      <img src="https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
-      <br><br>
-      <strong>🧰 Tools &amp; Platforms</strong><br><br>
-      <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code"/>
-      <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-    </td>
-  </tr>
-</table>
-
-<!--
-Optional: add a Data Science row once it matches your real skills, e.g.
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
-<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn"/>
-<img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter"/>
--->
-
----
-
-## 📈 GitHub Analytics
-
-<p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=AVIRUPA-GHOSH05&show_icons=true&theme=transparent&title_color=39d353&icon_color=58a6ff&text_color=c9d1d9&border_color=21262d&count_private=true" alt="Avirupa's GitHub Stats" height="165" />
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=AVIRUPA-GHOSH05&layout=compact&theme=transparent&title_color=39d353&text_color=c9d1d9&border_color=21262d" alt="Top Languages" height="165" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=AVIRUPA-GHOSH05&theme=tokyonight" alt="GitHub Streak" width="98%" />
-</p>
-
----
-
-## 📬 Connect With Me
-
-<!-- Replace the placeholders with your real links -->
-<p align="center">
-  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:YOUR-EMAIL"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-</p>
-
----
-
-## 💻 CSE Dev Quote
-
-> “The art of programming is the art of organizing complexity, of mastering multitude and avoiding its bastard chaos as effectively as possible.”
->
-> — Edsger W. Dijkstra
-
----
+— Edsger W. Dijkstra
