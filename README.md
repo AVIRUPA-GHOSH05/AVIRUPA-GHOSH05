@@ -53,19 +53,19 @@
 ## 📈 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=Avirupa143s&show_icons=true&theme=transparent&title_color=39d353&icon_color=58a6ff&text_color=c9d1d9&border_color=21262d&count_private=true" alt="Avirupa's GitHub Stats" height="165" />
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Avirupa143s&layout=compact&theme=transparent&title_color=39d353&text_color=c9d1d9&border_color=21262d" alt="Top Languages" height="165" />
+  <img src="https://github-stats-extended.vercel.app/api?username=AVIRUPA-GHOSH05&show_icons=true&theme=transparent&title_color=39d353&icon_color=58a6ff&text_color=c9d1d9&border_color=21262d&count_private=true" alt="Avirupa's GitHub Stats" height="165" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=AVIRUPA-GHOSH05&layout=compact&theme=transparent&title_color=39d353&text_color=c9d1d9&border_color=21262d" alt="Top Languages" height="165" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Avirupa143s&theme=tokyonight" alt="GitHub Streak" width="98%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AVIRUPA-GHOSH05theme=tokyonight" alt="GitHub Streak" width="98%" />
 </p>
 
 <p align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0.75rem; margin: 0.75rem 0 1.5rem;">
-  <img src="https://img.shields.io/github/stars/Avirupa143s/Avirupa143a?style=social" alt="GitHub stars" />
-  <img src="https://img.shields.io/github/forks/Avirupa143s/Avirupa143a?style=social" alt="GitHub forks" />
-  <img src="https://img.shields.io/github/issues/Avirupa143s/Avirupa143a?style=social" alt="GitHub issues" />
-  <img src="https://img.shields.io/github/repo-size/Avirupa143s/Avirupa143a" alt="Repo size" />
+  <img src="https://img.shields.io/github/stars/AVIRUPA-GHOSH05/AVIRUPA-GHOSH05?style=social" alt="GitHub stars" />
+  <img src="https://img.shields.io/github/forks/AVIRUPA-GHOSH05/AVIRUPA-GHOSH05?style=social" alt="GitHub forks" />
+  <img src="https://img.shields.io/github/issues/AVIRUPA-GHOSH05/AVIRUPA-GHOSH05?style=social" alt="GitHub issues" />
+  <img src="https://img.shields.io/github/repo-size/AVIRUPA-GHOSH05/AVIRUPA-GHOSH05" alt="Repo size" />
 </p>
 ---
 
